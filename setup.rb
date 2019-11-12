@@ -20,6 +20,7 @@ ActiveRecord::Base.establish_connection(
 )
 puts 'CONNECTED'
 
+
 puts 'Setting up Database (recreating tables) ...'
 
 ActiveRecord::Schema.define do
